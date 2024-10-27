@@ -468,16 +468,15 @@
         <div class="footer-form-cnt">
           <p class="footer-form-title">Subscribe</p>
           <form class="footer-form">
-            <div>
-              <label for="email"></label>
-              <input
-                class="footer-input"
-                type="email"
-                name="email"
-                id="email"
-                placeholder="E-mail"
-              />
-            </div>
+            <label for="email"></label>
+            <input
+              class="footer-input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+            />
+
             <button class="btn footer-btn">
               Subscribe
               <svg class="footer-btn-icon" width="24" height="24">
@@ -541,7 +540,6 @@
           </div>
           <div class="comment-wrapper">
             <label for="user-comment" class="modal-label">Comment </label>
-
             <textarea
               class="modal-input comment-input"
               id="user-comment"
@@ -549,19 +547,20 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="modal-chek-cnt">
+          <div class="modal-check-cnt">
             <input
-              class="modal-chek visually-hidden"
+              class="modal-check visually-hidden"
               type="checkbox"
-              id="agree"
-              name="agree"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
             />
-            <label for="agree" class="modal-chek-text"
-              ><span
-                ><svg class="modal-chek-icon" width="10" height="8">
+            <label for="user-privacy" class="modal-check-text"
+              ><span class="modal-check-span"
+                ><svg class="modal-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-agree"></use></svg></span
               >I accept the terms and conditions of the&nbsp;
-              <a href="">Privacy Policy</a></label
+              <a class="privacy-policy" href="">Privacy Policy</a></label
             >
           </div>
           <button class="btn modal-btn" type="button">Send</button>
