@@ -670,7 +670,7 @@ body {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   fill: transparent;
@@ -696,6 +696,7 @@ body {
 }
 .footer-form {
   display: flex;
+  gap: 24px;
   margin-left: auto;
 }
 .footer-form-cnt {
